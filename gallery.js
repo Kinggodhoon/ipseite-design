@@ -4,7 +4,7 @@ const labels = {
   app: "선수 앱",
   admin: "관리자 웹",
   athlete: "선수 웹",
-  system: "공통 기준",
+  system: "공통",
 };
 const grid = document.querySelector("#screen-grid"),
   search = document.querySelector("input[type=search]"),
@@ -43,8 +43,7 @@ document.querySelector(".category-tabs").innerHTML = Object.entries(labels)
   .join("");
 function render() {
   const rows = filtered();
-  document.querySelector("#result-count").textContent =
-    `${rows.length}개 화면 · 전체 ${screens.length}개`;
+  document.querySelector("#result-count").textContent = `${rows.length}개 화면`;
   document.querySelector("#empty").hidden = rows.length > 0;
   grid.innerHTML = rows
     .map(

@@ -6,9 +6,9 @@
     <meta name="robots" content="noindex,nofollow" />
     <meta
       name="description"
-      content="ipséité 선수 앱·관리자 웹·선수 웹의 페이지 구성과 디자인 의도를 살펴보세요."
+      content="ipseite 선수 앱·관리자 웹·선수 웹 디자인 시안"
     />
-    <title>ipséité · 앱·웹 디자인 시안</title>
+    <title>ipseite 디자인 시안</title>
     <link rel="icon" href="assets/favicon.svg" />
     <link rel="stylesheet" href="tokens.css" />
     <link rel="stylesheet" href="share.css" />
@@ -17,29 +17,24 @@
   <body>
     <a class="skip" href="#pages">페이지 목록으로</a>
     <header class="share-header">
-      <a href="./" class="wordmark">ipséité</a><span>앱·웹 디자인 시안</span
+      <a href="./" class="wordmark">ipséité</a><span>디자인 시안</span
       ><span class="edition">2026.11.02</span>
     </header>
     <main class="share-main">
       <section class="intro" aria-labelledby="page-title">
         <div>
           <p class="eyebrow">선수 앱 · 관리자 웹 · 선수 웹</p>
-          <h1 id="page-title">운동의 흐름을 따라 만든 화면들</h1>
-          <p class="intro-copy">
-            어떤 페이지가 있고, 각 화면을 어떤 의도로 구성했는지 살펴보세요.
-          </p>
+          <h1 id="page-title">ipseite 디자인 시안</h1>
         </div>
-        <p class="sample-note">
-          디자인 확인용 시안이에요.<br />모든 기록과 측정값은 가상 예시예요.
-        </p>
+        <p class="sample-note">예시 데이터 사용</p>
       </section>
       <details class="direction" open>
-        <summary>디자인 방향</summary>
+        <summary>디자인 기준</summary>
         <div id="principles" class="principles"></div>
       </details>
       <section id="pages" aria-labelledby="pages-title">
         <div class="section-heading">
-          <h2 id="pages-title">페이지 구성</h2>
+          <h2 id="pages-title">화면 목록</h2>
           <p id="result-count" aria-live="polite"></p>
         </div>
         <div class="catalog-toolbar">
@@ -53,16 +48,9 @@
           /></label>
         </div>
         <div id="screen-grid" class="screen-grid"></div>
-        <p id="empty" class="empty" hidden>
-          일치하는 화면이 없어요. 다른 이름으로 검색해 주세요.
-        </p>
+        <p id="empty" class="empty" hidden>검색 결과가 없어요.</p>
       </section>
-      <footer class="share-footer">
-        <span>ipséité · 디자인 시안</span
-        ><span
-          >화면을 선택하면 크게 보기와 디자인 의도를 확인할 수 있어요.</span
-        >
-      </footer>
+      <footer class="share-footer">ipséité</footer>
     </main>
     <dialog id="viewer" aria-labelledby="viewer-title">
       <div class="viewer-toolbar">
@@ -80,9 +68,8 @@
           <p id="viewer-category" class="eyebrow"></p>
           <h2 id="viewer-title"></h2>
           <p id="viewer-description"></p>
-          <h3>이 화면의 디자인 의도</h3>
+          <h3>화면 구성</h3>
           <ul id="viewer-rules"></ul>
-          <p class="viewer-sample">기록·수치·의견은 시안용 가상 자료예요.</p>
           <a id="full-image" class="text-link" target="_blank" rel="noopener"
             >이미지 원본 보기 ↗</a
           >
