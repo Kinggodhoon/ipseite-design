@@ -1,0 +1,98 @@
+@font-face {
+  font-family: Pretendard;
+  src: url("assets/PretendardVariable.woff2")
+    format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+/* Geometry and type: showfic-ux. Colors: ipséité's previous light/blue design,
+   restored at the user's request on 2026-10-29. */
+:root {
+  --color-sunken: #e8edf1;
+  --color-canvas: #f4f5f6;
+  --color-surface: #ffffff;
+  --color-raised: #edf0f3;
+  --color-hover: #e0e7ef;
+  --color-border-subtle: #e2e6e9;
+  --color-border: #cbd3dd;
+  --color-text: #202b36;
+  --color-secondary: #4c5e6b;
+  --color-muted: #66717d;
+  --color-action: #3655ba;
+  --color-action-hover: #294798;
+  --color-inverse: #ffffff;
+  --color-accent-soft: #edf1fb;
+  --color-accent-border: #b6c5ed;
+  --color-warning: #8b6124;
+  --color-warning-soft: #fff4df;
+  --color-error: #aa3e35;
+  --color-error-soft: #fff1ef;
+  --color-chart-a: var(--color-action);
+  --color-chart-b: #6a7686;
+  --color-focus: #3655ba;
+  --color-on-image: #ffffff;
+  --color-overlay: #000a;
+  --color-image-scrim: #202b36cc;
+  --font-ui: Pretendard, sans-serif;
+  --text-page: 28px;
+  --text-question: 28px;
+  --text-figure: 32px;
+  --text-section: 20px;
+  --text-item: 16px;
+  --text-body: 16px;
+  --text-secondary: 14px;
+  --text-caption: 12px;
+  --weight-body: 400;
+  --weight-medium: 500;
+  --weight-item: 600;
+  --weight-heading: 700;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+  --control-sm: 36px;
+  --control-height: 44px;
+  --control-lg: 52px;
+  --row-height: 56px;
+  --gutter: clamp(24px, 3.8vw, 72px);
+  --motion-fast: 150ms;
+  --motion-normal: 200ms;
+  --sidebar-width: 240px;
+  --form-width: 760px;
+  --bottom-bar: 72px;
+  /* Listed as additions in REVIEW.md: layout and instrument geometry, not new visual variants. */
+  --phone-width: 390px;
+  --stroke: 1px;
+  --focus-width: 2px;
+  --focus-offset: 3px;
+  --icon-size: 20px;
+  --icon-lg: 40px;
+  --header-height: 64px;
+  --control-thumb: 24px;
+  --ink: var(--color-text);
+  --muted: var(--color-muted);
+  --line: var(--color-border-subtle);
+  --blue: var(--color-action);
+  --blue-light: var(--color-accent-soft);
+  --paper: var(--color-surface);
+  --canvas: var(--color-canvas);
+  --amber: var(--color-warning);
+  --b: var(--color-chart-b);
+}
+@media (max-width: 760px) {
+  :root {
+    --gutter: 20px;
+    --text-page: 24px;
+    --text-question: 24px;
+    --text-section: 18px;
+    --text-item: 14px;
+  }
+}
