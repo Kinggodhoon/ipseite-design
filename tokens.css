@@ -5,8 +5,7 @@
   font-weight: 100 900;
   font-display: swap;
 }
-/* Geometry and type: showfic-ux. Colors: ipséité's previous light/blue design,
-   restored at the user's request on 2026-10-29. */
+/* Client logo / sky blue approved 2026-11-04. Darker foregrounds preserve contrast. */
 :root {
   --color-sunken: #e8edf1;
   --color-canvas: #f4f5f6;
@@ -18,18 +17,19 @@
   --color-text: #202b36;
   --color-secondary: #4c5e6b;
   --color-muted: #66717d;
-  --color-action: #3655ba;
-  --color-action-hover: #294798;
-  --color-inverse: #ffffff;
-  --color-accent-soft: #edf1fb;
-  --color-accent-border: #b6c5ed;
+  --color-action: #8fc3eb;
+  --color-action-hover: #7dbfed;
+  --color-inverse: #173c54;
+  --color-link: #25638a;
+  --color-accent-soft: #eef7fd;
+  --color-accent-border: #a9d5f1;
   --color-warning: #8b6124;
   --color-warning-soft: #fff4df;
   --color-error: #aa3e35;
   --color-error-soft: #fff1ef;
-  --color-chart-a: var(--color-action);
+  --color-chart-a: #287fb0;
   --color-chart-b: #6a7686;
-  --color-focus: #3655ba;
+  --color-focus: #25638a;
   --color-on-image: #ffffff;
   --color-overlay: #000a;
   --color-image-scrim: #202b36cc;

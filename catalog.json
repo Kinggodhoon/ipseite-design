@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-04",
   "screens": [
     {
       "id": "M01",
@@ -194,10 +194,10 @@
       ],
       "image": "assets/screens/M11.webp",
       "imageWidth": 390,
-      "imageHeight": 1094,
+      "imageHeight": 1596,
       "thumbnail": "assets/screens/M11-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 898
+      "thumbnailHeight": 1310
     },
     {
       "id": "M12",
@@ -428,10 +428,10 @@
       ],
       "image": "assets/screens/W06.webp",
       "imageWidth": 1280,
-      "imageHeight": 1041,
+      "imageHeight": 1760,
       "thumbnail": "assets/screens/W06-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 521
+      "thumbnailHeight": 880
     },
     {
       "id": "W07",
@@ -482,10 +482,10 @@
       ],
       "image": "assets/screens/W09.webp",
       "imageWidth": 1280,
-      "imageHeight": 1000,
+      "imageHeight": 1004,
       "thumbnail": "assets/screens/W09-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 500
+      "thumbnailHeight": 502
     },
     {
       "id": "W10",
@@ -626,10 +626,10 @@
       ],
       "image": "assets/screens/A04.webp",
       "imageWidth": 1280,
-      "imageHeight": 1041,
+      "imageHeight": 1760,
       "thumbnail": "assets/screens/A04-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 521
+      "thumbnailHeight": 880
     },
     {
       "id": "A05",
@@ -1139,7 +1139,7 @@
   "principles": [
     [
       "색상·글꼴",
-      "흰색 바탕, 파란색 강조, Pretendard"
+      "흰색 바탕, 스카이블루 강조, Pretendard"
     ],
     [
       "측정 단계",

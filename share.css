@@ -87,7 +87,7 @@ button:disabled {
 }
 .eyebrow {
   font-size: var(--text-caption);
-  color: var(--color-action);
+  color: var(--color-link);
   margin-bottom: var(--space-2);
   font-weight: var(--weight-item);
 }
@@ -173,7 +173,7 @@ h3 {
 }
 .category-tabs button[aria-pressed="true"] {
   background: var(--color-accent-soft);
-  color: var(--color-action);
+  color: var(--color-link);
   font-weight: var(--weight-item);
 }
 .category-tabs small {
@@ -274,7 +274,7 @@ h3 {
   font-size: var(--text-secondary);
 }
 .screen-card button:hover .card-copy h3 {
-  color: var(--color-action);
+  color: var(--color-link);
 }
 .empty {
   padding: var(--space-7);
@@ -393,7 +393,7 @@ dialog[data-category="app"] .screen-image-wrap img {
   align-items: center;
   min-height: var(--control-height);
   font-size: var(--text-secondary);
-  color: var(--color-action);
+  color: var(--color-link);
   margin-top: var(--space-3);
 }
 .viewer-pagination {
@@ -512,4 +512,18 @@ dialog[data-category="app"] .screen-image-wrap img {
     background: var(--color-surface);
     padding-block: var(--space-2);
   }
+}
+
+/* Official client artwork; body typography stays Pretendard. */
+.wordmark {
+  display: inline-flex;
+  align-items: center;
+}
+.wordmark img,
+.brand-logo {
+  display: block;
+  width: auto;
+  height: var(--control-sm);
+  max-width: 100%;
+  object-fit: contain;
 }
