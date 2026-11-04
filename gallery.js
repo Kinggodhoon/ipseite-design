@@ -2,7 +2,7 @@ const { screens, principles } = await (await fetch("./catalog.json")).json();
 const labels = {
   all: "전체",
   app: "선수 앱",
-  admin: "관리자 웹",
+  admin: "관리자·지도자 웹",
   athlete: "선수 웹",
   system: "공통",
 };

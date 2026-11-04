@@ -6,11 +6,11 @@
       "category": "app",
       "group": "시작",
       "title": "로그인",
-      "headline": "선수 ID · 비밀번호",
-      "description": "선수 ID와 비밀번호로 로그인해요.",
+      "headline": "선수별 개인 계정",
+      "description": "발급받은 선수 계정으로 로그인해요.",
       "rules": [
-        "선수 ID·비밀번호 입력",
-        "로그인 버튼"
+        "선수별 개인 계정",
+        "센서 교체와 무관한 기록 관리"
       ],
       "image": "assets/screens/M01.webp",
       "imageWidth": 390,
@@ -24,119 +24,119 @@
       "category": "app",
       "group": "시작",
       "title": "홈",
-      "headline": "측정 시작 · 최근 기록",
-      "description": "새 측정을 시작하거나 최근 운동 기록을 확인해요.",
+      "headline": "오늘의 운동 횟수·시간·기록",
+      "description": "오늘의 운동과 영상·평가 상태, 지도자 의견을 확인해요.",
       "rules": [
-        "측정 시작 버튼",
-        "최근 기록과 전송 대기 상태"
+        "오늘의 운동 횟수·시간·기록",
+        "운동 시작·지도자 의견·측정 요청"
       ],
       "image": "assets/screens/M02.webp",
       "imageWidth": 390,
-      "imageHeight": 1213,
+      "imageHeight": 1080,
       "thumbnail": "assets/screens/M02-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 995
+      "thumbnailHeight": 886
     },
     {
       "id": "M03",
       "category": "app",
       "group": "측정",
       "title": "측정 준비",
-      "headline": "동작 · 제품 · 측정 조건",
-      "description": "운동 동작, 제품, 센서 위치와 오늘의 측정 조건을 선택해요.",
+      "headline": "센서별 제품 자동 표시·수정",
+      "description": "연결한 센서의 제품을 불러오고 운동 조건을 확인해요.",
       "rules": [
-        "의수 착용 여부·기준 자세 선택",
-        "제품 버전·사이즈·센서 위치 확인"
+        "센서별 제품 자동 표시·수정",
+        "브라·드로즈·초기 자세·최대 1시간"
       ],
       "image": "assets/screens/M03.webp",
       "imageWidth": 390,
-      "imageHeight": 1154,
+      "imageHeight": 1426,
       "thumbnail": "assets/screens/M03-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 947
+      "thumbnailHeight": 1170
     },
     {
       "id": "M04",
       "category": "app",
       "group": "측정",
       "title": "기준 자세 보정",
-      "headline": "기준 자세 · 센서 방향",
-      "description": "유지할 수 있는 자세에서 센서 방향을 확인하고 기준 자세를 보정해요.",
+      "headline": "연결·방향·고정 상태 확인",
+      "description": "시작 자세를 3초간 유지해 운동 변화의 기준을 잡아요.",
       "rules": [
-        "서거나 앉은 자세로 보정",
-        "센서 방향·고정 상태 확인"
+        "연결·방향·고정 상태 확인",
+        "앉기·지지대 사용과 초기 보정"
       ],
       "image": "assets/screens/M04.webp",
       "imageWidth": 390,
-      "imageHeight": 844,
+      "imageHeight": 889,
       "thumbnail": "assets/screens/M04-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 693
+      "thumbnailHeight": 729
     },
     {
       "id": "M05",
       "category": "app",
       "group": "측정",
       "title": "실시간 기록",
-      "headline": "측정값 · 경과 시간",
-      "description": "측정값과 경과 시간을 보며 운동을 기록해요.",
+      "headline": "방향·단위·관찰 기준",
+      "description": "방향별 몸통 움직임과 채널별 측정값을 확인해요.",
       "rules": [
-        "일시정지·종료 버튼 하단 배치",
-        "구간 표시 후 메모 작성"
+        "방향·단위·관찰 기준",
+        "몸통 모형·가속도·각속도·자세각"
       ],
       "image": "assets/screens/M05.webp",
       "imageWidth": 390,
-      "imageHeight": 902,
+      "imageHeight": 1355,
       "thumbnail": "assets/screens/M05-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 740
+      "thumbnailHeight": 1112
     },
     {
       "id": "M06",
       "category": "app",
       "group": "측정",
       "title": "운동 완료",
-      "headline": "운동 요약 · 평가",
-      "description": "저장한 운동 기록을 확인하고 운동 후 평가로 이동해요.",
+      "headline": "운동·휴식 시간과 발생 시점",
+      "description": "시작·종료 시각과 방향별 최대값, 측정 결과를 확인해요.",
       "rules": [
-        "운동 시간·저장 상태 표시",
-        "평가 작성·완료 선택"
+        "운동·휴식 시간과 발생 시점",
+        "기준 이상 누적·채널별 결과"
       ],
       "image": "assets/screens/M06.webp",
       "imageWidth": 390,
-      "imageHeight": 844,
+      "imageHeight": 1287,
       "thumbnail": "assets/screens/M06-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 693
+      "thumbnailHeight": 1056
     },
     {
       "id": "M07",
       "category": "app",
       "group": "평가",
-      "title": "운동 후 평가",
-      "headline": "힘듦 · 피로 · 통증",
-      "description": "운동 후 힘듦, 피로, 통증을 0~10점으로 기록해요.",
+      "title": "운동 후 평가·일기",
+      "headline": "자가평가와 운동 일기",
+      "description": "운동 후 힘듦·피로·통증과 불편했던 동작을 기록해요.",
       "rules": [
-        "0~10점 선택과 척도 설명",
-        "선택 해제·미입력 표시"
+        "자가평가와 운동 일기",
+        "불편 동작·시점 메모"
       ],
       "image": "assets/screens/M07.webp",
       "imageWidth": 390,
-      "imageHeight": 865,
+      "imageHeight": 1035,
       "thumbnail": "assets/screens/M07-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 710
+      "thumbnailHeight": 849
     },
     {
       "id": "M08",
       "category": "app",
       "group": "측정",
       "title": "전송 상태",
-      "headline": "측정 기록 · 영상 전송",
-      "description": "측정 기록과 영상의 전송 상태를 확인해요.",
+      "headline": "파일 용량·진행률",
+      "description": "센서 기록·평가·영상의 전송 상태를 구분해요.",
       "rules": [
-        "완료·대기·실패 상태 표시",
-        "재시도·기록 보기 버튼"
+        "파일 용량·진행률",
+        "영상 재전송·기기 원본 보존"
       ],
       "image": "assets/screens/M08.webp",
       "imageWidth": 390,
@@ -149,138 +149,138 @@
       "id": "M09",
       "category": "app",
       "group": "내 기록",
-      "title": "기록 목록",
-      "headline": "날짜별 운동 목록",
-      "description": "월별 운동 기록과 평가·전송 상태를 확인해요.",
+      "title": "내 기록",
+      "headline": "운동 캘린더·일별 합계",
+      "description": "날짜별 운동과 전체 기록을 찾아봐요.",
       "rules": [
-        "날짜·동작별 기록 목록",
-        "평가·전송 상태 표시"
+        "운동 캘린더·일별 합계",
+        "계정 기준 기록·검색·진행 상태"
       ],
       "image": "assets/screens/M09.webp",
       "imageWidth": 390,
-      "imageHeight": 844,
+      "imageHeight": 1578,
       "thumbnail": "assets/screens/M09-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 693
+      "thumbnailHeight": 1295
     },
     {
       "id": "M10",
       "category": "app",
       "group": "내 기록",
       "title": "기록 상세",
-      "headline": "영상 · 측정값 · 이전 기록",
-      "description": "운동 영상과 측정값을 확인하고 본인의 이전 기록과 비교해요.",
+      "headline": "방향·단위·영상 시점·지표 설명",
+      "description": "영상과 측정값, 구간별 변화와 운동 일기를 함께 확인해요.",
       "rules": [
-        "전후반·반복 구간별 측정값",
-        "운동 평가·측정 당시 조건"
+        "방향·단위·영상 시점·지표 설명",
+        "전후반·반복·평가·기록 당시 조건"
       ],
       "image": "assets/screens/M10.webp",
       "imageWidth": 390,
-      "imageHeight": 2822,
+      "imageHeight": 4918,
       "thumbnail": "assets/screens/M10-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 2315
+      "thumbnailHeight": 4035
     },
     {
       "id": "M11",
       "category": "app",
       "group": "내 기록",
       "title": "기록 비교",
-      "headline": "두 기록의 그래프 · 수치",
-      "description": "같은 선수의 두 기록을 골라 그래프와 요약 수치를 비교해요.",
+      "headline": "서로 다른 날짜·제품·센서 표시",
+      "description": "두 날짜의 그래프와 수치·측정 조건을 비교해요.",
       "rules": [
-        "비교할 기록 A·B 선택",
-        "운동 시간·진행률 기준 비교"
+        "서로 다른 날짜·제품·센서 표시",
+        "지표별 비교·방향·단위·조건"
       ],
       "image": "assets/screens/M11.webp",
       "imageWidth": 390,
-      "imageHeight": 1596,
+      "imageHeight": 1484,
       "thumbnail": "assets/screens/M11-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 1310
+      "thumbnailHeight": 1218
     },
     {
       "id": "M12",
       "category": "app",
       "group": "내 정보",
       "title": "내 정보",
-      "headline": "선수 정보 · 운동 조건",
-      "description": "선수 정보와 의수·보조기, 평소 불편한 부위를 확인해요.",
+      "headline": "절단·의수·경력·소속",
+      "description": "선수 정보와 개인 운동 조건, 착용 제품을 확인해요.",
       "rules": [
-        "개인 정보·프로필 수정",
-        "의수·보조기와 운동 조건 표시"
+        "절단·의수·경력·소속",
+        "브라·드로즈·저장 공간"
       ],
       "image": "assets/screens/M12.webp",
       "imageWidth": 390,
-      "imageHeight": 1106,
+      "imageHeight": 1335,
       "thumbnail": "assets/screens/M12-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 907
+      "thumbnailHeight": 1095
     },
     {
       "id": "M13",
       "category": "app",
       "group": "센서",
       "title": "센서 진단",
-      "headline": "센서 연결 · 데이터 수신",
-      "description": "센서 연결과 데이터 수신 상태를 점검해요.",
+      "headline": "계정·센서·제품·배터리",
+      "description": "연결과 실제 수신 상태, 채널별 데이터를 확인해요.",
       "rules": [
-        "기기 재검색",
-        "수신 기록·진단 정보 저장"
+        "계정·센서·제품·배터리",
+        "최근 수신·채널 상태·기록 귀속"
       ],
       "image": "assets/screens/M13.webp",
       "imageWidth": 390,
-      "imageHeight": 844,
+      "imageHeight": 1048,
       "thumbnail": "assets/screens/M13-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 693
+      "thumbnailHeight": 860
     },
     {
       "id": "M14",
       "category": "app",
       "group": "평가",
       "title": "운동 전 평가",
-      "headline": "운동 전 힘듦 · 피로 · 통증",
+      "headline": "힘듦·피로·통증의 0–10점 평가",
       "description": "운동을 시작하기 전 몸 상태를 기록해요.",
       "rules": [
-        "힘듦·피로·통증 0~10점 입력",
-        "평가 입력·건너뛰기 선택"
+        "힘듦·피로·통증의 0–10점 평가",
+        "미입력과 0점 구분·몸 상태 메모"
       ],
       "image": "assets/screens/M14.webp",
       "imageWidth": 390,
-      "imageHeight": 915,
+      "imageHeight": 1035,
       "thumbnail": "assets/screens/M14-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 751
+      "thumbnailHeight": 849
     },
     {
       "id": "M15",
       "category": "app",
       "group": "평가",
-      "title": "착용 평가",
-      "headline": "편의성 · 압박감 · 지지력",
-      "description": "제품의 착용감과 불편한 위치·유형을 기록해요.",
+      "title": "제품별 착용 평가",
+      "headline": "제품별 버전·사이즈·색상",
+      "description": "브라와 드로즈의 착용감·불편 위치를 각각 기록해요.",
       "rules": [
-        "항목별 1~5점 척도",
-        "불편 위치·유형·메모 입력"
+        "제품별 버전·사이즈·색상",
+        "독립 평가·도식·유형·메모"
       ],
       "image": "assets/screens/M15.webp",
       "imageWidth": 390,
-      "imageHeight": 1489,
+      "imageHeight": 1782,
       "thumbnail": "assets/screens/M15-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 1222
+      "thumbnailHeight": 1462
     },
     {
       "id": "M16",
       "category": "app",
       "group": "센서",
       "title": "센서 연결",
-      "headline": "주변 센서 목록",
-      "description": "주변 센서를 검색하고 연결할 기기를 선택해요.",
+      "headline": "센서 교체·제품 매핑",
+      "description": "센서를 선택하고 연결된 제품과 배터리를 확인해요.",
       "rules": [
-        "검색된 센서 목록",
-        "기기 선택·연결 상태 표시"
+        "센서 교체·제품 매핑",
+        "계정 기록 유지·진단 연결"
       ],
       "image": "assets/screens/M16.webp",
       "imageWidth": 390,
@@ -294,65 +294,65 @@
       "category": "app",
       "group": "내 정보",
       "title": "프로필 수정",
-      "headline": "개인 정보 · 의수 · 불편 부위",
-      "description": "선수 정보와 의수 사용 여부, 평소 불편한 부위를 수정해요.",
+      "headline": "선택지·추가 설명·해당 없음",
+      "description": "선수 정보와 의수·절단·운동 조건을 수정해요.",
       "rules": [
-        "절단 측·수준·잔존지 길이 선택 입력",
-        "수정한 정보 저장"
+        "선택지·추가 설명·해당 없음",
+        "경력·포지션·절단 수준·잔존지 길이"
       ],
       "image": "assets/screens/M17.webp",
       "imageWidth": 390,
-      "imageHeight": 1159,
+      "imageHeight": 1958,
       "thumbnail": "assets/screens/M17-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 951
+      "thumbnailHeight": 1607
     },
     {
       "id": "W00",
       "category": "admin",
       "group": "시작",
       "title": "웹 로그인",
-      "headline": "ID · 비밀번호",
-      "description": "등록한 계정으로 선수 웹 또는 관리자 웹에 로그인해요.",
+      "headline": "선수·지도자·관리자 별도 계정",
+      "description": "본인 계정으로 로그인하고 역할에 맞는 화면을 이용해요.",
       "rules": [
-        "계정·비밀번호 입력",
-        "로그인 후 역할별 화면 이동"
+        "선수·지도자·관리자 별도 계정",
+        "발급받은 아이디·비밀번호"
       ],
       "image": "assets/screens/W00.webp",
       "imageWidth": 1280,
-      "imageHeight": 1000,
+      "imageHeight": 1064,
       "thumbnail": "assets/screens/W00-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 500
+      "thumbnailHeight": 532
     },
     {
       "id": "W01",
       "category": "admin",
       "group": "개요",
       "title": "대시보드",
-      "headline": "최근 운동 · 확인할 기록",
-      "description": "최근 운동과 검토·처리가 필요한 기록을 확인해요.",
+      "headline": "선수 식별 정보·최근 기록",
+      "description": "이름·종목·소속과 선수별 운동·전송 상태를 확인해요.",
       "rules": [
-        "최근 운동 목록",
-        "확인이 필요한 기록으로 이동"
+        "선수 식별 정보·최근 기록",
+        "평가·전송·검토 요청·계정 관리"
       ],
       "image": "assets/screens/W01.webp",
       "imageWidth": 1280,
-      "imageHeight": 1292,
+      "imageHeight": 1000,
       "thumbnail": "assets/screens/W01-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 646
+      "thumbnailHeight": 500
     },
     {
       "id": "W02",
       "category": "admin",
       "group": "선수",
       "title": "선수 관리",
-      "headline": "선수 검색 · 계정 관리",
-      "description": "선수를 검색하고 등록 정보와 계정 상태를 관리해요.",
+      "headline": "종목·성별·사이즈·소속 필터",
+      "description": "선수와 계정을 검색·정렬하고 상세 기록으로 이동해요.",
       "rules": [
-        "검색·종목별 조회",
-        "선수 등록·명부 가져오기"
+        "종목·성별·사이즈·소속 필터",
+        "계정·지도자·선수 상세"
       ],
       "image": "assets/screens/W02.webp",
       "imageWidth": 1280,
@@ -366,137 +366,137 @@
       "category": "admin",
       "group": "선수",
       "title": "선수 상세",
-      "headline": "선수 정보 · 운동 이력",
-      "description": "선수의 개인 정보와 운동 기록을 확인해요.",
+      "headline": "개인 정보·제품·센서·계정",
+      "description": "선수 정보와 캘린더·날짜별 운동을 함께 확인해요.",
       "rules": [
-        "절단 특성·의수·불편 부위 표시",
-        "측정 당시 조건·운동 이력 확인"
+        "개인 정보·제품·센서·계정",
+        "월간 캘린더·선택일 기록·영상"
       ],
       "image": "assets/screens/W03.webp",
       "imageWidth": 1280,
-      "imageHeight": 1222,
+      "imageHeight": 1929,
       "thumbnail": "assets/screens/W03-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 611
+      "thumbnailHeight": 965
     },
     {
       "id": "W04",
       "category": "admin",
       "group": "운동 기록",
       "title": "운동 기록",
-      "headline": "운동 검색 · 두 기록 선택",
-      "description": "조건에 맞는 운동 기록을 찾고 비교할 두 기록을 선택해요.",
+      "headline": "종목·성별·사이즈·소속 정렬/필터",
+      "description": "전체 기록을 조건별로 찾고 같은 선수의 기록을 비교해요.",
       "rules": [
-        "날짜·선수·제품별 조회",
-        "선택한 두 기록 비교"
+        "종목·성별·사이즈·소속 정렬/필터",
+        "전체 기록·측정 조건·진행 상태"
       ],
       "image": "assets/screens/W04.webp",
       "imageWidth": 1280,
-      "imageHeight": 1134,
+      "imageHeight": 1285,
       "thumbnail": "assets/screens/W04-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 567
+      "thumbnailHeight": 643
     },
     {
       "id": "W05",
       "category": "admin",
       "group": "운동 기록",
       "title": "기록 상세",
-      "headline": "영상 · 그래프 · 운동 평가",
-      "description": "운동 영상과 측정값, 평가를 검토해요.",
+      "headline": "지표별 방향·단위·시점",
+      "description": "측정값과 영상·운동 일기·비교 조건을 확인해요.",
       "rules": [
-        "전후반·반복 구간별 측정값",
-        "영상 시점·메모·측정 조건 확인"
+        "지표별 방향·단위·시점",
+        "구간·전후반·반복·평가·당시 조건"
       ],
       "image": "assets/screens/W05.webp",
       "imageWidth": 1280,
-      "imageHeight": 2733,
+      "imageHeight": 4138,
       "thumbnail": "assets/screens/W05-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 1367
+      "thumbnailHeight": 2069
     },
     {
       "id": "W06",
       "category": "admin",
       "group": "운동 기록",
       "title": "기록 비교",
-      "headline": "그래프 · 요약 수치 비교",
-      "description": "두 기록의 그래프와 요약 수치를 비교해요.",
+      "headline": "A/B 날짜·색상·단위",
+      "description": "두 기록의 지표별 그래프와 측정 조건을 나란히 봐요.",
       "rules": [
-        "기록 선택과 비교 결과 표시",
-        "운동 시간·진행률 기준 전환"
+        "A/B 날짜·색상·단위",
+        "제품·센서·보정 조건·차이 표시"
       ],
       "image": "assets/screens/W06.webp",
       "imageWidth": 1280,
-      "imageHeight": 1760,
+      "imageHeight": 1481,
       "thumbnail": "assets/screens/W06-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 880
+      "thumbnailHeight": 741
     },
     {
       "id": "W07",
       "category": "admin",
       "group": "제품",
-      "title": "제품·평가",
-      "headline": "제품별 착용 점수 · 의견",
-      "description": "제품별 착용 평가와 선수 의견을 확인해요.",
+      "title": "제품별 착용 평가",
+      "headline": "제품·사이즈·색상 구분",
+      "description": "브라·드로즈별 평가와 선수의 원문 의견을 확인해요.",
       "rules": [
-        "척도 설명·응답 수 표시",
-        "원문 의견·분류·전달 내용 확인"
+        "제품·사이즈·색상 구분",
+        "개별 평가·불편 위치·유형"
       ],
       "image": "assets/screens/W07.webp",
       "imageWidth": 1280,
-      "imageHeight": 1250,
+      "imageHeight": 1000,
       "thumbnail": "assets/screens/W07-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 625
+      "thumbnailHeight": 500
     },
     {
       "id": "W08",
       "category": "admin",
       "group": "센서",
-      "title": "센서 관리",
-      "headline": "센서 목록 · 배정 상태",
-      "description": "센서별 상태를 확인하고 선수에게 배정하거나 반납 처리해요.",
+      "title": "센서·제품 관리",
+      "headline": "센서→제품 매핑·앱 자동 표시",
+      "description": "센서와 제품을 연결하고 선수 배정·반납 이력을 관리해요.",
       "rules": [
-        "선수 배정·변경·반납",
-        "센서별 연결·검증 상태 표시"
+        "센서→제품 매핑·앱 자동 표시",
+        "이름·종목·소속·배정·반납 이력"
       ],
       "image": "assets/screens/W08.webp",
       "imageWidth": 1280,
-      "imageHeight": 1000,
+      "imageHeight": 1387,
       "thumbnail": "assets/screens/W08-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 500
+      "thumbnailHeight": 694
     },
     {
       "id": "W09",
       "category": "admin",
       "group": "보고서",
       "title": "보고서",
-      "headline": "기간별 집계 · 내보내기",
-      "description": "기간별 운동 집계와 포함된 기록을 확인하고 내보내요.",
+      "headline": "지표·방향·발생 시점·운동 시간",
+      "description": "기간별 지표·그래프·운동 및 제품 평가를 모아 출력해요.",
       "rules": [
-        "기간·제품별 조회",
-        "날짜별 차트·포함 기록 목록"
+        "지표·방향·발생 시점·운동 시간",
+        "자가평가·제품별 평가·포함 기록"
       ],
       "image": "assets/screens/W09.webp",
       "imageWidth": 1280,
-      "imageHeight": 1004,
+      "imageHeight": 2116,
       "thumbnail": "assets/screens/W09-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 502
+      "thumbnailHeight": 1058
     },
     {
       "id": "W10",
       "category": "admin",
       "group": "설정",
       "title": "운영 설정",
-      "headline": "분석 · 보관 · AI 설정",
-      "description": "계산 기준, 보관 기간과 AI 사용 설정을 관리해요.",
+      "headline": "기울기 기준·구간 지속시간의 의미",
+      "description": "관찰 기준과 필요한 운영 보조 도구를 관리해요.",
       "rules": [
-        "설정 종류별 입력 항목",
-        "AI 사용 상태·동의 확인"
+        "기울기 기준·구간 지속시간의 의미",
+        "초기값·운영 도구 연결"
       ],
       "image": "assets/screens/W10.webp",
       "imageWidth": 1280,
@@ -510,11 +510,11 @@
       "category": "admin",
       "group": "선수",
       "title": "명부 가져오기",
-      "headline": "CSV 미리보기 · 오류 수정",
-      "description": "선수 명부 파일을 확인하고 누락된 값을 수정해요.",
+      "headline": "파일 검사·등록·계정 발급 구분",
+      "description": "명단의 누락 정보를 보완하고 선수를 등록해요.",
       "rules": [
-        "파일 미리보기·오류 위치 표시",
-        "수정 후 재검사·등록 인원 확인"
+        "파일 검사·등록·계정 발급 구분",
+        "오류 항목 수정·등록 상태"
       ],
       "image": "assets/screens/W11.webp",
       "imageWidth": 1280,
@@ -528,299 +528,299 @@
       "category": "admin",
       "group": "선수",
       "title": "선수 등록",
-      "headline": "신규 선수 정보 입력",
-      "description": "선수 정보와 계정을 등록해요.",
+      "headline": "이름·소속·종목·경력·포지션",
+      "description": "선수 정보와 개인 운동 조건·계정을 등록해요.",
       "rules": [
-        "필수·선택 입력 항목 구분",
-        "선수 정보 저장"
+        "이름·소속·종목·경력·포지션",
+        "절단·의수·착용 제품·선택 입력"
       ],
       "image": "assets/screens/W12.webp",
       "imageWidth": 1280,
-      "imageHeight": 1000,
+      "imageHeight": 2265,
       "thumbnail": "assets/screens/W12-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 500
+      "thumbnailHeight": 1133
     },
     {
       "id": "W13",
       "category": "admin",
       "group": "선수",
       "title": "선수 정보 수정",
-      "headline": "선수 프로필 수정",
-      "description": "관리자가 선수의 등록 정보를 수정해요.",
+      "headline": "등록 화면과 동일한 정보",
+      "description": "등록한 선수 정보와 운동 조건을 수정해요.",
       "rules": [
-        "선택한 선수의 정보 편집",
-        "저장 후 선수 상세로 이동"
+        "등록 화면과 동일한 정보",
+        "개인 조건·제품·계정"
       ],
       "image": "assets/screens/W13.webp",
       "imageWidth": 1280,
-      "imageHeight": 1000,
+      "imageHeight": 2265,
       "thumbnail": "assets/screens/W13-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 500
+      "thumbnailHeight": 1133
     },
     {
       "id": "A01",
       "category": "athlete",
       "group": "내 기록",
       "title": "내 기록",
-      "headline": "내 운동 목록",
-      "description": "본인의 운동 기록과 평가 상태를 확인해요.",
+      "headline": "캘린더·오늘의 운동·과거 기록",
+      "description": "내 운동과 날짜별 활동·전송 상태를 확인해요.",
       "rules": [
-        "운동 기록에서 상세 보기",
-        "기록별 평가 상태 표시"
+        "캘린더·오늘의 운동·과거 기록",
+        "영상·분석·평가 상태"
       ],
       "image": "assets/screens/A01.webp",
       "imageWidth": 1280,
-      "imageHeight": 1000,
+      "imageHeight": 1332,
       "thumbnail": "assets/screens/A01-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 500
+      "thumbnailHeight": 666
     },
     {
       "id": "A02",
       "category": "athlete",
       "group": "내 기록",
       "title": "기록 상세",
-      "headline": "측정 결과 · 이전 기록 비교",
-      "description": "운동 측정값과 전후반 변화, 이전 기록 비교 결과를 확인해요.",
+      "headline": "방향·단위·시점·영상 구간",
+      "description": "내 영상과 지표·운동 일기·측정 조건을 확인해요.",
       "rules": [
-        "전후반·반복 구간별 측정값",
-        "데이터 품질·측정 조건 표시"
+        "방향·단위·시점·영상 구간",
+        "전후반·반복·현재/비교 조건"
       ],
       "image": "assets/screens/A02.webp",
       "imageWidth": 1280,
-      "imageHeight": 2733,
+      "imageHeight": 4175,
       "thumbnail": "assets/screens/A02-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 1367
+      "thumbnailHeight": 2088
     },
     {
       "id": "A03",
       "category": "athlete",
       "group": "내 정보",
       "title": "내 정보",
-      "headline": "선수 정보 · 운동 조건",
-      "description": "본인의 개인 정보와 의수·보조기, 불편한 부위를 확인해요.",
+      "headline": "소속·종목·경력·개인 조건",
+      "description": "개인 정보와 절단·의수·제품 조건을 확인하고 수정해요.",
       "rules": [
-        "선택 입력한 개인 정보 표시",
-        "프로필 수정"
+        "소속·종목·경력·개인 조건",
+        "브라·드로즈·선택 입력"
       ],
       "image": "assets/screens/A03.webp",
       "imageWidth": 1280,
-      "imageHeight": 1238,
+      "imageHeight": 1134,
       "thumbnail": "assets/screens/A03-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 619
+      "thumbnailHeight": 567
     },
     {
       "id": "A04",
       "category": "athlete",
       "group": "내 기록",
       "title": "기록 비교",
-      "headline": "내 기록 A · B 비교",
-      "description": "본인의 두 기록을 골라 측정값과 운동 조건을 비교해요.",
+      "headline": "A/B 날짜·방향·단위·지표",
+      "description": "내 두 기록의 그래프와 조건을 비교해요.",
       "rules": [
-        "비교할 기록 A·B 선택",
-        "측정 조건·그래프 표시"
+        "A/B 날짜·방향·단위·지표",
+        "제품·센서·기준 자세 차이"
       ],
       "image": "assets/screens/A04.webp",
       "imageWidth": 1280,
-      "imageHeight": 1760,
+      "imageHeight": 1481,
       "thumbnail": "assets/screens/A04-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 880
+      "thumbnailHeight": 741
     },
     {
       "id": "A05",
       "category": "athlete",
       "group": "평가",
-      "title": "운동 평가 수정",
-      "headline": "운동 전후 · 착용 평가",
-      "description": "운동 기록에 남긴 자가평가와 착용 평가를 수정해요.",
+      "title": "운동·착용 평가 수정",
+      "headline": "자가평가·운동 일기",
+      "description": "운동 전후 평가와 브라·드로즈 평가를 각각 수정해요.",
       "rules": [
-        "운동 전후 점수·착용감 입력",
-        "저장 후 기록 상세로 이동"
+        "자가평가·운동 일기",
+        "제품별 평가·부위·유형"
       ],
       "image": "assets/screens/A05.webp",
       "imageWidth": 1280,
-      "imageHeight": 1124,
+      "imageHeight": 2505,
       "thumbnail": "assets/screens/A05-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 562
+      "thumbnailHeight": 1253
     },
     {
       "id": "S01",
       "category": "system",
       "group": "기준",
-      "title": "디자인 시스템",
-      "headline": "글꼴 · 색상 · UI 요소",
-      "description": "공통으로 사용하는 글꼴, 색상과 UI 요소를 확인해요.",
+      "title": "디자인 기준",
+      "headline": "공식 로고·스카이블루·Pretendard",
+      "description": "로고·색상·글꼴과 공통 UI 부품을 확인해요.",
       "rules": [
-        "Pretendard 글꼴·크기",
-        "버튼·입력란·선택·상태 표시"
+        "공식 로고·스카이블루·Pretendard",
+        "지표·버튼·입력·상태의 일관성"
       ],
       "image": "assets/screens/S01.webp",
       "imageWidth": 1280,
-      "imageHeight": 1000,
+      "imageHeight": 1375,
       "thumbnail": "assets/screens/S01-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 500
+      "thumbnailHeight": 688
     },
     {
       "id": "S02",
       "category": "system",
       "group": "기준",
       "title": "오류·빈 상태",
-      "headline": "연결 실패 · 빈 목록 · 자료 부족",
-      "description": "오류나 데이터가 없는 상황의 화면을 확인해요.",
+      "headline": "원본 보존·연결/전송 재시도",
+      "description": "연결·전송·자료·권한에 맞는 안내와 다음 행동을 봐요.",
       "rules": [
-        "상태·오류 사유 표시",
-        "재시도·다음 행동 버튼"
+        "원본 보존·연결/전송 재시도",
+        "빈 기록·자료 부족·담당 범위"
       ],
       "image": "assets/screens/S02.webp",
       "imageWidth": 1280,
-      "imageHeight": 1780,
+      "imageHeight": 1122,
       "thumbnail": "assets/screens/S02-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 890
+      "thumbnailHeight": 561
     },
     {
       "id": "M18",
       "category": "app",
       "group": "영상 비교",
       "title": "두 영상 비교",
-      "headline": "두 영상 · 그래프 비교",
-      "description": "서로 다른 두 운동의 영상과 그래프를 비교해요.",
+      "headline": "기준 장면·동시 재생·구간 이동",
+      "description": "두 영상의 기준 장면을 맞춰 같은 시점의 수치를 비교해요.",
       "rules": [
-        "기준 장면 선택",
-        "두 영상·그래프의 같은 시점 표시"
+        "기준 장면·동시 재생·구간 이동",
+        "지표·색상·방향·단위별 그래프"
       ],
       "image": "assets/screens/M18.webp",
       "imageWidth": 390,
-      "imageHeight": 1337,
+      "imageHeight": 1919,
       "thumbnail": "assets/screens/M18-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 1097
+      "thumbnailHeight": 1575
     },
     {
       "id": "M19",
       "category": "app",
       "group": "영상 비교",
       "title": "비교할 기록 선택",
-      "headline": "비교 대상 A · B 선택",
-      "description": "목록에서 비교할 두 기록을 선택하거나 교체해요.",
+      "headline": "기록 날짜·제품·센서 조건",
+      "description": "같은 동작의 두 기록을 고르거나 교체해요.",
       "rules": [
-        "날짜·동작·제품 정보 표시",
-        "한쪽 기록만 교체"
+        "기록 날짜·제품·센서 조건",
+        "두 기록 선택·비교 연결"
       ],
       "image": "assets/screens/M19.webp",
       "imageWidth": 390,
-      "imageHeight": 1485,
+      "imageHeight": 844,
       "thumbnail": "assets/screens/M19-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 1218
+      "thumbnailHeight": 693
     },
     {
       "id": "M20",
       "category": "app",
       "group": "내 기록",
       "title": "지도자 의견",
-      "headline": "지도자 의견 · 재측정 요청",
-      "description": "지도자의 의견과 표시된 영상 장면을 확인해요.",
+      "headline": "의견에 연결된 영상 구간",
+      "description": "구간 의견과 요청을 확인하고 댓글로 소통해요.",
       "rules": [
-        "의견에 연결된 장면 보기",
-        "재측정 사유·의견 확인 상태"
+        "의견에 연결된 영상 구간",
+        "선수·지도자 댓글·추가 검토 상태"
       ],
       "image": "assets/screens/M20.webp",
       "imageWidth": 390,
-      "imageHeight": 1182,
+      "imageHeight": 1539,
       "thumbnail": "assets/screens/M20-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 970
+      "thumbnailHeight": 1263
     },
     {
       "id": "M21",
       "category": "app",
       "group": "측정 계획",
-      "title": "배정된 측정",
-      "headline": "배정 과제 · 진행 상태",
-      "description": "배정된 제품과 동작별 측정 과제를 확인해요.",
+      "title": "측정 요청",
+      "headline": "브라·드로즈·측정 회차",
+      "description": "제품별로 요청받은 측정과 진행 상태를 확인해요.",
       "rules": [
-        "과제별 측정·평가 상태",
-        "다음 측정·미전송 기록 표시"
+        "브라·드로즈·측정 회차",
+        "배정 수·완료·전송·평가·의견"
       ],
       "image": "assets/screens/M21.webp",
       "imageWidth": 390,
-      "imageHeight": 844,
+      "imageHeight": 1235,
       "thumbnail": "assets/screens/M21-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 693
+      "thumbnailHeight": 1013
     },
     {
       "id": "M22",
       "category": "app",
       "group": "측정 계획",
-      "title": "측정 준비",
-      "headline": "배정된 동작 · 제품 확인",
-      "description": "계획에 배정된 동작과 제품 조건으로 측정을 준비해요.",
+      "title": "요청 측정 준비",
+      "headline": "제품·동작·회차 확인",
+      "description": "요청받은 조건을 불러와 측정을 준비해요.",
       "rules": [
-        "배정한 조건 자동 입력",
-        "준비 상태·측정 시작 버튼"
+        "제품·동작·회차 확인",
+        "센서·초기 자세·최대 1시간"
       ],
       "image": "assets/screens/M22.webp",
       "imageWidth": 390,
-      "imageHeight": 960,
+      "imageHeight": 1496,
       "thumbnail": "assets/screens/M22-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 788
+      "thumbnailHeight": 1227
     },
     {
       "id": "M23",
       "category": "app",
       "group": "내 기록",
       "title": "자가평가 변화",
-      "headline": "4주 · 8주 평가 변화",
-      "description": "4주·8주 동안 입력한 힘듦, 피로와 착용감을 확인해요.",
+      "headline": "항목·기간별 추이",
+      "description": "직접 입력한 몸 상태와 제품별 착용감의 변화를 봐요.",
       "rules": [
-        "기간별 평가 그래프",
-        "미입력과 0점 구분"
+        "항목·기간별 추이",
+        "미입력 구분·원래 기록 연결"
       ],
       "image": "assets/screens/M23.webp",
       "imageWidth": 390,
-      "imageHeight": 1676,
+      "imageHeight": 1424,
       "thumbnail": "assets/screens/M23-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 1375
+      "thumbnailHeight": 1168
     },
     {
       "id": "M24",
       "category": "app",
       "group": "내 기록",
       "title": "운동 세트",
-      "headline": "세트별 횟수 · 메모",
-      "description": "세트별 반복 횟수와 메모를 기록해요.",
+      "headline": "운동 전 계획·운동 후 수정",
+      "description": "세트별 동작·횟수·중량과 운동 장소를 기록해요.",
       "rules": [
-        "세트 순서·반복 횟수 입력",
-        "세트별 메모"
+        "운동 전 계획·운동 후 수정",
+        "반복 횟수·kg·메모·세트 추가"
       ],
       "image": "assets/screens/M24.webp",
       "imageWidth": 390,
-      "imageHeight": 844,
+      "imageHeight": 1440,
       "thumbnail": "assets/screens/M24-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 693
+      "thumbnailHeight": 1182
     },
     {
       "id": "M25",
       "category": "app",
       "group": "내 정보",
       "title": "기기 저장 공간",
-      "headline": "보관 상태 · 파일 정리",
-      "description": "서버에 보관된 파일을 확인하고 기기 저장 공간을 정리해요.",
+      "headline": "서버 보관 확인·전송 중 파일 보호",
+      "description": "실제 사용·여유 용량과 정리할 기기 사본을 확인해요.",
       "rules": [
-        "파일별 보관 위치·용량 표시",
-        "정리할 파일 선택"
+        "서버 보관 확인·전송 중 파일 보호",
+        "기기 사본 정리·평가와 기록 유지"
       ],
       "image": "assets/screens/M25.webp",
       "imageWidth": 390,
@@ -834,83 +834,83 @@
       "category": "app",
       "group": "평가",
       "title": "착용 불편 위치",
-      "headline": "불편한 위치 · 유형",
-      "description": "제품을 착용할 때 불편했던 위치와 유형을 기록해요.",
+      "headline": "제품별 도식·번호·부위 선택",
+      "description": "브라·드로즈의 부위와 불편 유형을 선택해요.",
       "rules": [
-        "도식에서 위치 선택",
-        "불편 유형·메모 입력"
+        "제품별 도식·번호·부위 선택",
+        "복수 유형·메모·제품별 저장"
       ],
       "image": "assets/screens/M26.webp",
       "imageWidth": 390,
-      "imageHeight": 844,
+      "imageHeight": 1367,
       "thumbnail": "assets/screens/M26-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 693
+      "thumbnailHeight": 1122
     },
     {
       "id": "M27",
       "category": "app",
       "group": "상태",
       "title": "변경 내용 확인",
-      "headline": "내 입력 · 다른 기기 변경",
-      "description": "다른 기기의 변경 내용과 내 입력을 비교하고 저장할 값을 선택해요.",
+      "headline": "기기 입력·웹 저장 내용 비교",
+      "description": "같은 기록의 수정 내용이 다를 때 유지할 값을 선택해요.",
       "rules": [
-        "항목별 두 값 비교",
-        "내 입력·서버 값 선택"
+        "기기 입력·웹 저장 내용 비교",
+        "입력 보존·명시적 선택"
       ],
       "image": "assets/screens/M27.webp",
       "imageWidth": 390,
-      "imageHeight": 844,
+      "imageHeight": 871,
       "thumbnail": "assets/screens/M27-thumb.webp",
       "thumbnailWidth": 320,
-      "thumbnailHeight": 693
+      "thumbnailHeight": 715
     },
     {
       "id": "W14",
       "category": "admin",
       "group": "운동 검토",
-      "title": "영상 비교",
-      "headline": "두 영상 · 그래프 검토",
-      "description": "서로 다른 기록의 영상과 측정값을 함께 비교해요.",
+      "title": "두 영상 비교",
+      "headline": "A/B 영상·기준 장면·같은 경과 시간",
+      "description": "영상의 기준 장면과 채널별 그래프를 맞춰 비교해요.",
       "rules": [
-        "기준 장면·시간축 설정",
-        "제품·날짜·측정 조건 표시"
+        "A/B 영상·기준 장면·같은 경과 시간",
+        "가속도·각속도·자세각·방향·단위"
       ],
       "image": "assets/screens/W14.webp",
       "imageWidth": 1280,
-      "imageHeight": 1328,
+      "imageHeight": 2089,
       "thumbnail": "assets/screens/W14-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 664
+      "thumbnailHeight": 1045
     },
     {
       "id": "W15",
       "category": "admin",
       "group": "운동 검토",
-      "title": "영상 비교 기록 선택",
-      "headline": "비교 대상 A · B 선택",
-      "description": "선수와 운동 조건을 확인한 뒤 비교할 두 기록을 선택해요.",
+      "title": "비교할 기록 선택",
+      "headline": "서로 다른 날짜 비교",
+      "description": "한 선수의 같은 동작 기록 두 개를 선택해요.",
       "rules": [
-        "선수·동작·제품별 조회",
-        "A·B 기록 선택·교체"
+        "서로 다른 날짜 비교",
+        "선수·제품·센서·조건 확인"
       ],
       "image": "assets/screens/W15.webp",
       "imageWidth": 1280,
-      "imageHeight": 1279,
+      "imageHeight": 1000,
       "thumbnail": "assets/screens/W15-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 640
+      "thumbnailHeight": 500
     },
     {
       "id": "W16",
       "category": "admin",
       "group": "운동 검토",
-      "title": "지도자 검토 목록",
-      "headline": "검토 대기 · 완료 · 재측정",
-      "description": "검토할 운동을 찾고 평가·전송 상태를 확인해요.",
+      "title": "검토 요청 목록",
+      "headline": "검토 대기·추가 검토·완료",
+      "description": "담당 선수의 기록 검토와 구간 추가 요청을 확인해요.",
       "rules": [
-        "검토 상태별 목록",
-        "선수의 의견 확인 여부 표시"
+        "검토 대기·추가 검토·완료",
+        "요청 구간·담당자 의견·처리 상태"
       ],
       "image": "assets/screens/W16.webp",
       "imageWidth": 1280,
@@ -923,30 +923,30 @@
       "id": "W17",
       "category": "admin",
       "group": "운동 검토",
-      "title": "영상 구간 의견",
-      "headline": "영상 구간 · 의견 · 표시",
-      "description": "영상의 특정 시점에 의견과 원·화살표 표시를 남겨요.",
+      "title": "구간 의견·추가 검토",
+      "headline": "구간 시작·종료·영상·댓글",
+      "description": "영상 구간에 의견과 요청을 남기고 답글로 소통해요.",
       "rules": [
-        "시점별 의견·영상 표시",
-        "선수 전달·검토 상태 관리"
+        "구간 시작·종료·영상·댓글",
+        "추가 분석·재측정·재분석 구분"
       ],
       "image": "assets/screens/W17.webp",
       "imageWidth": 1280,
-      "imageHeight": 1082,
+      "imageHeight": 1611,
       "thumbnail": "assets/screens/W17-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 541
+      "thumbnailHeight": 806
     },
     {
       "id": "W18",
       "category": "admin",
       "group": "측정 계획",
-      "title": "측정 계획 목록",
-      "headline": "회차별 계획 · 진행 상태",
-      "description": "회차별 측정 계획과 진행 상태를 확인해요.",
+      "title": "측정 요청 목록",
+      "headline": "선택형 요청·자유 운동 허용",
+      "description": "지도자·관리자가 필요할 때 배정한 측정을 관리해요.",
       "rules": [
-        "기간·선수·제품 정보 표시",
-        "계획별 상세·진행표 이동"
+        "선택형 요청·자유 운동 허용",
+        "제품·선수·기간·진행 상태"
       ],
       "image": "assets/screens/W18.webp",
       "imageWidth": 1280,
@@ -959,66 +959,66 @@
       "id": "W19",
       "category": "admin",
       "group": "측정 계획",
-      "title": "측정 계획 만들기",
-      "headline": "제품 · 선수 · 측정 조건",
-      "description": "제품과 선수, 기간, 반복 조건을 정하고 측정 과제를 배정해요.",
+      "title": "측정 요청 만들기",
+      "headline": "브라·드로즈별 조건",
+      "description": "선수·제품·동작·시간·회수를 정해 측정을 요청해요.",
       "rules": [
-        "배정 인원·과제 수 확인",
-        "제품 순서·반복·휴식 설정"
+        "브라·드로즈별 조건",
+        "배정 수 미리 보기·담당 선수"
       ],
       "image": "assets/screens/W19.webp",
       "imageWidth": 1280,
-      "imageHeight": 1055,
+      "imageHeight": 1362,
       "thumbnail": "assets/screens/W19-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 528
+      "thumbnailHeight": 681
     },
     {
       "id": "W20",
       "category": "admin",
       "group": "측정 계획",
       "title": "선수별 진행표",
-      "headline": "선수별 측정 · 평가 · 검토",
-      "description": "선수별로 어떤 제품의 측정을 마쳤는지 확인해요.",
+      "headline": "배정 수·측정 완료·평가 입력 구분",
+      "description": "선수·제품·회차별 측정과 평가 진행 상태를 봐요.",
       "rules": [
-        "선수·제품별 진행표",
-        "측정·평가·검토 상태 표시"
+        "배정 수·측정 완료·평가 입력 구분",
+        "전송·분석·의견·다음 행동"
       ],
       "image": "assets/screens/W20.webp",
       "imageWidth": 1280,
-      "imageHeight": 1089,
+      "imageHeight": 1000,
       "thumbnail": "assets/screens/W20-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 545
+      "thumbnailHeight": 500
     },
     {
       "id": "W21",
       "category": "admin",
       "group": "자가평가",
       "title": "자가평가 변화",
-      "headline": "기간별 자가평가 그래프",
-      "description": "선수와 기간을 선택해 입력한 평가 점수의 변화를 확인해요.",
+      "headline": "선수·기간·평가 항목",
+      "description": "선수가 직접 입력한 몸 상태와 착용감의 변화를 봐요.",
       "rules": [
-        "운동 전후 점수·척도 표시",
-        "미입력 구간 표시"
+        "선수·기간·평가 항목",
+        "미입력·0점·척도 구분"
       ],
       "image": "assets/screens/W21.webp",
       "imageWidth": 1280,
-      "imageHeight": 1495,
+      "imageHeight": 1284,
       "thumbnail": "assets/screens/W21-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 748
+      "thumbnailHeight": 642
     },
     {
       "id": "W22",
       "category": "admin",
       "group": "실증 보고",
-      "title": "회차 제출본",
-      "headline": "포함 기록 · 제출 파일",
-      "description": "회차에 포함할 기록을 확인하고 제출본을 보관해요.",
+      "title": "측정 자료 묶음",
+      "headline": "브라·드로즈·포함/제외 기록",
+      "description": "선택한 기간과 제품의 자료를 묶어 제출·출력해요.",
       "rules": [
-        "포함·제외 사유·확정 버전 표시",
-        "PDF·CSV 내보내기"
+        "브라·드로즈·포함/제외 기록",
+        "확정 자료 보관·PDF/CSV"
       ],
       "image": "assets/screens/W22.webp",
       "imageWidth": 1280,
@@ -1032,29 +1032,29 @@
       "category": "admin",
       "group": "운동 기록",
       "title": "센서 CSV 가져오기",
-      "headline": "열 · 단위 · 선수 연결",
-      "description": "센서 CSV의 열과 단위를 확인하고 선수의 기록으로 가져와요.",
+      "headline": "운영 보조·일반 측정과 구분",
+      "description": "별도로 받은 센서 파일을 운동 기록으로 가져와요.",
       "rules": [
-        "파일 미리보기·오류 표시",
-        "선수·열·단위 연결"
+        "운영 보조·일반 측정과 구분",
+        "표본 수·경과 시간·단위·보정 확인"
       ],
       "image": "assets/screens/W23.webp",
       "imageWidth": 1280,
-      "imageHeight": 1000,
+      "imageHeight": 1091,
       "thumbnail": "assets/screens/W23-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 500
+      "thumbnailHeight": 546
     },
     {
       "id": "W24",
       "category": "admin",
       "group": "제품·평가",
       "title": "착용 불편 집계",
-      "headline": "제품별 불편 위치 · 의견",
-      "description": "제품별로 불편했던 위치와 유형, 선수 의견을 확인해요.",
+      "headline": "브라·드로즈 독립 집계",
+      "description": "제품별 불편 위치·유형과 선수 원문 의견을 봐요.",
       "rules": [
-        "응답 수·미입력 수 표시",
-        "집계에서 개별 의견 보기"
+        "브라·드로즈 독립 집계",
+        "부위·유형·응답 수·개별 기록"
       ],
       "image": "assets/screens/W24.webp",
       "imageWidth": 1280,
@@ -1067,12 +1067,12 @@
       "id": "W25",
       "category": "admin",
       "group": "측정 계획",
-      "title": "수행 순서와 휴식",
-      "headline": "계획 순서 · 실제 시간",
-      "description": "계획한 제품 순서와 실제 수행 순서·휴식 시간을 비교해요.",
+      "title": "수행 순서·측정 간격",
+      "headline": "요청/실제 순서·시작/종료",
+      "description": "요청 순서와 실제 기록 시각·간격을 확인해요.",
       "rules": [
-        "계획·실제 순서 표시",
-        "시작·종료·휴식 시간 확인"
+        "요청/실제 순서·시작/종료",
+        "측정 간격·사전 승인 없는 자유 측정"
       ],
       "image": "assets/screens/W25.webp",
       "imageWidth": 1280,
@@ -1086,72 +1086,126 @@
       "category": "athlete",
       "group": "내 기록",
       "title": "지도자 의견",
-      "headline": "지도자 의견 · 영상 장면",
-      "description": "본인의 운동에 남겨진 지도자 의견을 확인해요.",
+      "headline": "선수의 의견 열람·구간 이동",
+      "description": "지도자의 구간 의견과 요청을 보고 댓글을 남겨요.",
       "rules": [
-        "의견에 연결된 영상 장면",
-        "재측정 사유·의견 확인"
+        "선수의 의견 열람·구간 이동",
+        "댓글·추가 검토·재측정 상태"
       ],
       "image": "assets/screens/A06.webp",
       "imageWidth": 1280,
-      "imageHeight": 1000,
+      "imageHeight": 1977,
       "thumbnail": "assets/screens/A06-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 500
+      "thumbnailHeight": 989
     },
     {
       "id": "A07",
       "category": "athlete",
       "group": "측정 계획",
-      "title": "내 측정 계획",
-      "headline": "배정 과제 · 진행 상태",
-      "description": "배정된 제품과 동작별 측정 과제를 확인해요.",
+      "title": "내 측정 요청",
+      "headline": "제품·동작·회차·다음 행동",
+      "description": "나에게 배정된 조건과 진행 상태를 확인해요.",
       "rules": [
-        "과제별 측정·평가·검토 상태",
-        "완료한 과제·다음 과제 표시"
+        "제품·동작·회차·다음 행동",
+        "자유 운동과 별도인 선택형 요청"
       ],
       "image": "assets/screens/A07.webp",
       "imageWidth": 1280,
-      "imageHeight": 1000,
+      "imageHeight": 1005,
       "thumbnail": "assets/screens/A07-thumb.webp",
       "thumbnailWidth": 640,
-      "thumbnailHeight": 500
+      "thumbnailHeight": 503
     },
     {
       "id": "A08",
       "category": "athlete",
       "group": "내 기록",
       "title": "자가평가 변화",
-      "headline": "기간별 평가 점수",
-      "description": "본인이 입력한 평가 점수의 변화를 기간별로 확인해요.",
+      "headline": "항목별 척도·기간별 추이",
+      "description": "직접 입력한 힘듦·피로·통증·착용감 변화를 봐요.",
       "rules": [
-        "힘듦·피로·착용감별 그래프",
-        "기간·척도·미입력 표시"
+        "항목별 척도·기간별 추이",
+        "미입력·0점 구분·기록 연결"
       ],
       "image": "assets/screens/A08.webp",
       "imageWidth": 1280,
-      "imageHeight": 1000,
+      "imageHeight": 1185,
       "thumbnail": "assets/screens/A08-thumb.webp",
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 593
+    },
+    {
+      "id": "W26",
+      "category": "admin",
+      "group": "지도자",
+      "title": "지도자 관리",
+      "headline": "독립 지도자 계정·소속",
+      "description": "지도자 계정과 담당 선수 연결을 관리해요.",
+      "rules": [
+        "독립 지도자 계정·소속",
+        "담당 선수·활성 상태·계정 관리"
+      ],
+      "image": "assets/screens/W26.webp",
+      "imageWidth": 1280,
+      "imageHeight": 1000,
+      "thumbnail": "assets/screens/W26-thumb.webp",
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 500
+    },
+    {
+      "id": "W27",
+      "category": "admin",
+      "group": "지도자",
+      "title": "지도자 등록·선수 연결",
+      "headline": "이름·소속·아이디·임시 비밀번호",
+      "description": "지도자 계정을 발급하고 담당 선수를 선택해요.",
+      "rules": [
+        "이름·소속·아이디·임시 비밀번호",
+        "담당 선수 연결·역할별 제공 기능"
+      ],
+      "image": "assets/screens/W27.webp",
+      "imageWidth": 1280,
+      "imageHeight": 1237,
+      "thumbnail": "assets/screens/W27-thumb.webp",
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 619
+    },
+    {
+      "id": "W28",
+      "category": "admin",
+      "group": "지도자",
+      "title": "지도자 홈",
+      "headline": "담당 선수 범위·지도자 본인 계정",
+      "description": "담당 선수의 운동과 검토·측정 요청을 확인해요.",
+      "rules": [
+        "담당 선수 범위·지도자 본인 계정",
+        "운동·구간 검토·측정 요청 연결"
+      ],
+      "image": "assets/screens/W28.webp",
+      "imageWidth": 1280,
+      "imageHeight": 1000,
+      "thumbnail": "assets/screens/W28-thumb.webp",
       "thumbnailWidth": 640,
       "thumbnailHeight": 500
     }
   ],
   "principles": [
     [
-      "색상·글꼴",
-      "흰색 바탕, 스카이블루 강조, Pretendard"
+      "로고와 색상",
+      "공식 로고·스카이블루·Pretendard를 함께 사용해요."
     ],
     [
-      "측정 단계",
-      "준비 → 보정 → 측정 → 평가 → 기록 확인"
+      "운동과 기록",
+      "오늘의 운동부터 측정·평가·이전 기록으로 이어져요."
     ],
     [
-      "기록 비교",
-      "본인의 이전 기록과 측정 조건 비교"
+      "측정값과 영상",
+      "방향·단위·발생 시점과 비교 조건을 함께 표시해요."
     ],
     [
-      "조작 방식",
-      "큰 선택 영역과 하단 주요 버튼"
+      "계정과 제품",
+      "선수 기록은 계정에, 브라·드로즈 평가는 제품별로 남아요."
     ]
   ]
 }
